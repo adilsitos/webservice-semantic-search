@@ -8,7 +8,7 @@ class Recommendation(models.Model):
         verbose_name= "Recommendation"
         verbose_name_plural= "Recommendation"
 
-    users_response = models.IntegerField(default=0, verbose_name="Response from users", null=False)
+    users_response = models.BooleanField(default=False, verbose_name="Response from users", null=False)
     searched_query = models.CharField(max_length=500, verbose_name="Query from the user", null=True)
     first = models.CharField(max_length=500, verbose_name="Highest recommendation", null=True)
     first_score = models.FloatField(null=True, verbose_name="Score of the highest recommendation")
