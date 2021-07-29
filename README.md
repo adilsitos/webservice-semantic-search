@@ -5,7 +5,7 @@ Recommendation system code can be found at: [amazon-semantic-search](https://git
 
 The development was entirely made in [Django](https://www.djangoproject.com/) a framework in Python used to create web services. 
 
-API can be found here: https://semanticserviceapi.herokuapp.com/
+API can be found here: https://semanticsearchamazon.herokuapp.com/
 
 End points: 
   - /api/recommendations/ (Used to insert feedbacks from users about a recommendation) 
